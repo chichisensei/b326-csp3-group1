@@ -1,4 +1,4 @@
 package com.joysistvi.CyberAccess.repo;
 
-public class SessionsRepoImpl {
+public class SessionsRepoImpl{
 }

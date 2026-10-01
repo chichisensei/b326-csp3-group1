@@ -1,4 +1,13 @@
 package com.joysistvi.CyberAccess.model;
 
-public class Transactions {
-}
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
+// Holds the details of one transaction.
+public record Transactions(
+        int id,
+        int userId,
+        LocalDateTime createdAt,
+        String status,
+        BigDecimal total
+) {}
