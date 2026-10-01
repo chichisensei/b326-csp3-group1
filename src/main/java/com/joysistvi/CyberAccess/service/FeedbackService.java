@@ -1,10 +1,10 @@
-package com.joysistvi.CyberAccess.repo;
+package com.joysistvi.CyberAccess.service;
 
 import com.joysistvi.CyberAccess.model.Feedback;
 
 import java.util.List;
 
-public interface FeedbackRepo {
+public interface FeedbackService {
 
     List<Feedback> getAllFeedback();
 
